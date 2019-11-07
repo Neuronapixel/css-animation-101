@@ -10,60 +10,67 @@
     </head>
     <body>
         <main>
+            <section class="section">
+                <h1 class="title">CSS Animatables</h1>
+            </section>
             <article class="section">
                 <article class="container">
-                    <h1 class="title">animations</h1>
+                    <h1 class="title">Animation</h1>
                     <hr>
                     <article class="example">
-                            <h1 class="title">keyframes</h1>
-                            <p>explicacion</p>
+                            <h1 class="title">Keyframes</h1>
+                            <p>Animation defined by keyframes declared into a CSS @keyframe rule </p>
                             <figure>
                                 <div class="example-area">
                                     <div class="circle bouncing"></div>
                                 </div>
                             </figure>
+                            <p>Same animation defined by keyframes declared into a CSS @keyframe rule with another animation parameters </p>
+                            <figure>
+                                <div class="example-area">
+                                    <div class="circle bouncing--faster"></div>
+                                </div>
+                            </figure>
+                            <p>Multiple keyframe animation declared into a CSS @keyframe rules sharing animation parameters </p>
+                            <figure>
+                                <div class="example-area">
+                                    <div class="circle bouncing--fading"></div>
+                                </div>
+                            </figure>
                     </article>
                     <article class="example">
-                        <h1 class="title">rollover</h1>
-                        <p>explicacion</p>
-                      
+                        <h1 class="title">Rollover</h1>
+                        <p>Using animation on pseudo selector rules</p>
                         <figure>
                             <div class="example-area">
                                <div class="btn square">press me</div>
                             </div>
                         </figure>
-                    </article>
-                    <article class="example">
-                        <h1 class="title">Example N</h1>
-                        <p>explicacion</p>
-                        <div class="btn square">press me</div>
+                        <p>Using animation on pseudo selector rules with more defined steps</p>
                         <figure>
                             <div class="example-area">
-                                <div class="circle"></div>
+                               <div class="btn square fade-by-steps">press me</div>
                             </div>
-                    </figure>
-                </article>
+                        </figure>
+                    </article>
             </article>
             </article>
             <article class="section">
                 <article class="container">
-                    <h1 class="title">transitions</h1>
+                    <h1 class="title">Transition</h1>
                     <hr>
                     <article class="example">
                             <h1 class="title">Example 1</h1>
-                            <p>explicacion</p>
+                            <p>Transition observer over width</p>
                             <figure>
                                 <div class="example-area">
-                                    <div class="btn square grow">press me</div>
+                                    <div class="btnB square grow">press me</div>
                                 </div>
                             </figure>
-                    </article>
-                    <article class="example">
-                            <h1 class="title">Example N</h1>
-                            <p>explicacion</p>
+                            <p>Transition observer over width</p>
                             <figure>
                                 <div class="example-area">
-                                    <div class="btn square">press me</div>
+                                    <div class="btnB square glow">press me</div>
                                 </div>
                             </figure>
                     </article>

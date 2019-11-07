@@ -19,3 +19,18 @@
         color: black;
     }
 }
+@keyframes stepfade {
+    0% {
+        background: black;
+        color: white;
+    }
+
+    50%{
+        color: white;
+    }
+
+    100% {
+        background-color: white;
+        color: black;
+    }
+}
