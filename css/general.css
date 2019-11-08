@@ -1,13 +1,13 @@
 .btn{
     background: black;
-    border: white 1p solid;
+    border: white 1px solid;
     color: white;
     height: 30px;
     width: 100px;
 }
 .btn:hover{
     background-color: white;
-    border: black 1p solid;
+    border: black 1px solid;
     color: black;
     height: 30px;
     width: 120px;
@@ -17,7 +17,6 @@
     background-color : white;
     border: black 1p solid;
     color: black;
-    
     height: 30px;
     width: 100px;
 }
@@ -25,14 +24,14 @@
     background-color: black;
     border: white 1p solid;
     color: white;
-    height: 30px;
+    height: 130px;
     width: 150px;
 }
 .bouncing{
     animation: slidein 1s infinite alternate;
 }
 .bouncing--faster{
-    animation: slidein 0.5s ease-in-out infinite alternate;
+    animation: slidein 1s ease-in-out infinite alternate;
 }
 .bouncing--fading{
     animation-name: slidein ,fade;
@@ -68,7 +67,7 @@
     animation: stepfade 1s ease-in 1;
 }
 .grow{
-    transition:width 2s;
+    transition:width 2s, height 1s ease-in, background 1s;
 }
 .glow{
     transition:width 2s, background-color 1s;
